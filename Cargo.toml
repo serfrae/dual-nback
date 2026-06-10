@@ -1,0 +1,19 @@
+[package]
+name = "dual-nback"
+version = "0.1.0"
+edition = "2024"
+description = "A modern dual n-back working-memory trainer, inspired by Brain Workshop"
+license = "GPL-2.0-or-later"
+
+[dependencies]
+chrono = { version = "0.4.45", features = ["serde"] }
+dirs = "6.0.0"
+eframe = "0.34.3"
+hound = "3.5.1"
+rand = "0.10.1"
+rodio = "0.22.2"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.150"
+
+[profile.release]
+lto = "thin"
