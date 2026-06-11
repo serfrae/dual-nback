@@ -1,6 +1,6 @@
 # Dual N-Back
 
-A modern, native dual n-back working-memory trainer written in Rust — a
+A modern, native dual n-back working-memory trainer written in Rust - a
 reimplementation of the classic [Brain Workshop](https://github.com/brain-workshop/brainworkshop)
 dual n-back mode with a cleaner interface, adaptive difficulty, and built-in
 progress tracking. Single self-contained binary; the letter recordings are
